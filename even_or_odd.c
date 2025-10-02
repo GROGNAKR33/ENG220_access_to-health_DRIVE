@@ -2,7 +2,7 @@
 
 int main()
 {
-  printf("Wassup Guys");
+  printf("Wassup Guys! Jah stinks");
   int a=5;
 
   for(int i=0; i<a; ++i)
