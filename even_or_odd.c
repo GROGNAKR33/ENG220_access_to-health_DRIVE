@@ -8,9 +8,21 @@ int main()
   for(int i=0; i<a; ++i)
     {
       printf("%d\n", i);
-      printd("%d",((i*1013484158)+18347985471289)*183947839724897);
     }
   printf("Hello");
+
+  int num;
+  printf("\nGive me a number: ");
+  scanf("%d", &num);
+
+  if(num%2==0)
+  {
+    printf("\nNumber is Even");
+  }
+  else
+  {
+    printf("\nNumber is Odd");
+  }
 
   return 0;
 }
